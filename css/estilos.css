@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:whitesmoke
+}
+/*HEADER*/
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+    background-color: white ; 
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    FONT-FAMILY: 'Montserrat';
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    FONT-FAMILY: 'Montserrat';
+}
+.logo img{
+    height: 30px;
+}
+nav a{
+    padding-right: 15px;
+    color: black;
+}
+nav a:hover{
+    color: black;
+}
+.active{
+    color: rgb(255, 0, 0);
+    transition: .5s;
+}
+/*HEADER*/
+/*MAIN*/
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: white;
+    border: 22px;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+
+.card {
+    margin: 20px;
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+    background-size: cover;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
+    background-position: center;
+}
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, .4);
+    opacity: 0;
+    transition: .5s;
+}
+#card1 {
+    background-image: url(../img/tarjeta1.jpg);
+}
+#card2 {
+    background-image: url(../img/tarjeta2.jpg);
+}
+#card3 {
+    background-image: url(../img/tarjeta3.jpg);
+}
+#card4 {
+    background-image: url(../img/tarjeta4.jpg);
+}
+.content h2, a {
+    color: rgba(255, 255, 255, .8);
+    margin: 10px 0;
+}
+.card:hover .content {
+    opacity: 1;
+    border-radius: 5px;
+}
+.textotarjeta {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    FONT-FAMILY: 'Montserrat';
+}
+nav a{
+    font-weight: 600px;
+    padding-right: 15px;
+}
+nav a:hover{
+    color: rgb(255, 0, 0);
+    
+}
+
+.active{
+    color: rgb(255, 0, 0);
+    transition: .5s;
+}
+.vermas{
+color: white;
+}
+.title_tarjetas{
+    position: absolute;
+    justify-content: center;
+    top: 120px;
+    FONT-FAMILY: 'Montserrat';
+    font-weight: bold;
+    font-size:xx-large;
+}
+/*MAIN*/
+/*FOOTER*/
+.footer {
+    display: flex;
+    justify-content: center;
+    height: 10px;
+    align-items: center;
+    background-color: white;
+    font-family: sans-serif;
+    padding: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 15px;
+    border-radius: 15px;
+}
+.h4{
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-decoration: none;
+    font-weight: 600px;
+}
+/*FOOTER*/
+.titulo_tienda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    FONT-FAMILY: 'Montserrat';
+}
+.button {
+    background-color: rgb(255, 59, 59);
+    border: none;
+    color: white;
+    padding: 7px 14px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    width: 100px ;
+    height: 35px;
+    border-radius: 15px;
+}
+
+.imagen {
+    width: 100%;
+    border-radius: 5px;
+}
+.cuerpo_tarjeta{
+    FONT-FAMILY: 'Montserrat';
+    font-size: 13px;
+    width: 280px;
+    border: solid gray 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    margin: 2rem;
+} 
+.comprar{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 59, 59);
+    border-radius: 5px;
+    padding: 8px;
+}
+.comprar:hover{
+    background-color:rgb(255, 92, 92) ;
+}
+.datos{
+    padding: 12px;
+    margin-bottom: 10px;
+}
+.section_tienda{
+    display: flex;
+    margin: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.color{
+    background-color: white ; 
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+}
+/*TIENDA*/
