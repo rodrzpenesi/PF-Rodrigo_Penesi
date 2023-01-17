@@ -116,7 +116,7 @@ color: white;
 .title_tarjetas{
     position: absolute;
     justify-content: center;
-    top: 120px;
+    top: 830px;
     FONT-FAMILY: 'Montserrat';
     font-weight: bold;
     font-size:xx-large;
@@ -250,4 +250,10 @@ a {
 }
 .nav-linnk{
     color: black;
+}
+.img_fondo{
+    width: 98%;
+    height: 100%;
+    border-radius: 15px;
+    margin: 10px;
 }
