@@ -3,14 +3,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!--Aos-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
-    <link rel="stylesheet" href="./css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
     <header>
@@ -18,37 +16,16 @@
             <img src="./img/logardo.png" alt="logo de mi empresa">
         </div> 
         <div>
-            <nav>
-                <a class="active" href="./index.html" class="nav-link">Inicio</a>
-                <a href="./pages/Tienda.html" class="nav-link">Tienda</class=>
-                <a href="./pages/Quienes_somos.html" class="nav-link">Sobre nosotros</a>
-                <a href="./pages/Quiero_revender.html" class="nav-link">Quiero revender</a>
-                <a href="./pages/resetas.html" class="nav-link">Recetas</a> 
+            <nav class="navegacion">
+                <a class="active" href="./index.html" class="nav-linnk">Inicio</a>
+                <a href="./pages/Tienda.html" class="nav-linnk">Tienda</class=>
+                <a href="./pages/Quienes_somos.html" class="nav-linnk">Sobre nosotros</a>
+                <a href="./pages/Quiero_revender.html" class="nav-linnk">Quiero revender</a>
+                <a href="./pages/resetas.html" class="nav-linnk">Recetas</a> 
             </nav>     
         </div>
     </header>
     <main>
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                <img src="..." class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-            </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
         <section class="main">
             <h3 class="title_tarjetas">ALGUNOS DE NUESTROS PRODUCTOS</h3>
             <div class="card" id="card1" data-aos="flip-left">
@@ -83,7 +60,7 @@
             </div>
             <div class="card" id="card4" data-aos="flip-left">
                 <div class="content">
-                    <h2 class="textotarjeta">condimentCondimentos</h2>
+                    <h2 class="textotarjeta">Condimentos</h2>
                     <a href="#">
                         <form action="#">
                             <input type="submit" value="Comprar" class="button"/>
@@ -93,15 +70,15 @@
             </div>
     </section>
     </main>
-    <footer class="footer">
-        <h4 class="h4">EMBUTIDOS RODRIGO Y FAUSTO</h4>
-        <h4 class="h4">|</h4>
-        <h4 class="h4">RIO CUARTO, CORDOBA.</h4>
-        <h4 class="h4">|</h4>
-        <h4 class="h4">TEL: 3584298363</h4>
-        <h4 class="h4">|</h4>
-        <h4 class="h4">EMAIL EMBUTIDOSRYF@GMAIL.COM</h4>
-    </footer>  
+    <footer class="foter">
+        <h4 class="h4_footer">EMBUTIDOS RODRIGO Y FAUSTO</h4>
+        <h4 class="h4_footer">|</h4>
+        <h4 class="h4_footer">RIO CUARTO, CORDOBA.</h4>
+        <h4 class="h4_footer">|</h4>
+        <h4 class="h4_footer">TEL: 3584298363</h4>
+        <h4 class="h4_footer">|</h4>
+        <h4 class="h4_footer">EMAIL EMBUTIDOSRYF@GMAIL.COM</h4>
+    </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
         <script>
             AOS.init();

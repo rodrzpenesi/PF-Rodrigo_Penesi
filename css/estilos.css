@@ -21,13 +21,15 @@ header {
 .logo img{
     height: 30px;
 }
-nav a{
+.navegacion {
+    display: flex;
     padding-right: 15px;
     color: black;
     text-decoration: none;
     FONT-FAMILY: 'Montserrat';
     font-weight: 20;
     font-size:larger;
+    justify-content: space-between;
 }
 nav a:hover{
     color: black;
@@ -121,19 +123,9 @@ color: white;
 }
 /*MAIN*/
 /*FOOTER*/
-.footer {
-    display: flex;
-    justify-content: center;
-    height: 10px;
-    align-items: center;
-    background-color: white;
-    font-family: sans-serif;
-    padding: 15px;
-    padding-right: 15px;
-    padding-left: 15px;
-    border-radius: 15px;
-}
-.h4{
+
+
+.h4_footer{
     color: rgb(0, 0, 0);
     padding: 20px;
     text-decoration: none;
@@ -207,4 +199,55 @@ color: white;
 /*TIENDA*/
 .cuerpo_tarjeta:hover {
     width: 380px;
+}
+.w-100 {
+    width: 99%!important;
+    height: 93%;
+    border-radius: 15px;
+    padding: 9px;
+}
+.carousel carousel-dark slide{
+    border-radius: 15px;
+}
+nav{
+    display: flex;
+    padding-right: 15px;
+    text-decoration: none;
+    FONT-FAMILY: 'Montserrat';
+    font-weight: 20;
+    font-size:medium;
+    justify-content: space-between;
+}
+.active{
+    color: rgb(255, 0, 0);
+    transition: .5s;
+}
+a {
+    text-decoration: none;
+    margin: 0.3rem;
+    
+}
+.h4_footer{
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    text-decoration: none;
+    font-size: small;
+    text-align: center;
+    margin-top: 0.8rem;
+}
+.foter {
+    display: flex;
+    justify-content: center;
+    height: 10px;
+    align-items: center;
+    background-color: white;
+    font-family: sans-serif;
+    padding: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 15px;
+    margin: 10px;
+}
+.nav-linnk{
+    color: black;
 }
