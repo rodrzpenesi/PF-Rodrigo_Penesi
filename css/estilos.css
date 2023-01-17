@@ -257,3 +257,16 @@ a {
     border-radius: 15px;
     margin: 10px;
 }
+.hero_rojo{
+    background-color: tomato;
+    border-radius: 15px;
+    margin: 10px;
+    height: 8rem;
+}
+.texto_pedidos{
+    text-align: center;
+    padding: 2rem;
+    color: azure;
+    font-size:xx-large;
+    FONT-FAMILY: 'Montserrat';
+}
