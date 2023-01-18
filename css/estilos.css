@@ -34,10 +34,7 @@ header {
 nav a:hover{
     color: black;
 }
-.active{
-    color: rgb(255, 0, 0);
-    transition: .5s;
-}
+
 /*HEADER*/
 /*MAIN*/
 .main {
@@ -285,12 +282,25 @@ a {
     height: 50px;
     z-index: 100;
 }
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color:#ff3b3b;
+}
+.nav-link {
+    display: block;
+    padding: 10px;
+    font-size: large;
+    font-weight: 50px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    FONT-FAMILY: 'Montserrat';
+    
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+}
 @media (max-width: 425px){
     header{
-    flex-direction: column;
-    height: 120px;
-    justify-content: space-around;
+        height: auto;
+    }
 }
-}
-
-
