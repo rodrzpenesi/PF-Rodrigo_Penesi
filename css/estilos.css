@@ -303,4 +303,8 @@ a {
     header{
         height: auto;
     }
+    .imagen_principal{
+        width: 100%;
+
+    }
 }
