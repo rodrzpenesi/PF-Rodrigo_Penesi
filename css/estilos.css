@@ -304,7 +304,24 @@ a {
         height: auto;
     }
     .imagen_principal{
-        width: 100%;
+        width: 100%;}
 
+    .main {
+        flex-direction: column;
     }
+    .title_tarjetas{
+        position: relative;
+        top: 5px;
+        padding: 2rem;
+        text-align: center;
+    }
+    h2{
+        margin-top: -13;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+    footer{
+        flex-direction: column;
+        height: 0px;
+
 }
