@@ -322,6 +322,6 @@ a {
     }
     footer{
         flex-direction: column;
-        height: 0px;
+        height: 0px;}
 
 }
