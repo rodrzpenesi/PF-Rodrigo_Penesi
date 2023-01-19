@@ -250,6 +250,9 @@ color: white;
 .navbar-nav {
     font-weight:bolder; 
 }
+.img, info{
+    width: 100%;
+}
 @media screen and (min-width: 768px) {
     img{
         width: 240;
@@ -260,10 +263,11 @@ color: white;
     }
     .navbar{
         height: 50px;}
+    .info {
+        margin-top: 2rem;
+    }
 
 }
-    /* .navbar-nav {margin-left: 27rem;
-    } */
 
 
 
@@ -293,8 +297,9 @@ color: white;
             width: 96%;
             height: auto;
     }
-    /* .navbar-toggler {
-        margin-left: 3rem;
-    } */
+    .row {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 
 }
