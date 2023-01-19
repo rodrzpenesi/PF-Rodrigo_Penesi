@@ -298,6 +298,10 @@ a {
 }
 .bg-body-tertiary {
     --bs-bg-opacity: 0;
+    
+}
+.navbar-nav{
+    margin-left: 23.4rem;
 }
 @media (max-width: 425px){
     header{
@@ -323,5 +327,12 @@ a {
     footer{
         flex-direction: column;
         height: 0px;}
+    .img_fondo {
+            width: 96%;
+            height: auto;
+    }
+    .navbar-toggler {
+        margin-left: 3rem;
+    }
 
 }
