@@ -8,33 +8,11 @@ body{
 }
 /*HEADER*/
 header {
-    display: flex;
-    justify-content: space-between;
-    height: 25px;
-    background-color: white ; 
-    align-items: center;
-    padding: 20px;
-    margin: 10px;
+    background-color: white;
     border-radius: 15px;
     FONT-FAMILY: 'Montserrat';
+    margin: 10px;
 }
-.logo img{
-    height: 30px;
-}
-.navegacion {
-    display: flex;
-    padding-right: 15px;
-    color: black;
-    text-decoration: none;
-    FONT-FAMILY: 'Montserrat';
-    font-weight: 20;
-    font-size:larger;
-    justify-content: space-between;
-}
-nav a:hover{
-    color: black;
-}
-
 /*HEADER*/
 /*MAIN*/
 .main {
@@ -49,7 +27,7 @@ nav a:hover{
 }
 
 
-.card {
+.tarjeta {
     margin: 20px;
     width: 350px;
     height: 350px;
@@ -93,14 +71,6 @@ nav a:hover{
     text-decoration: none;
     color: rgb(0, 0, 0);
     FONT-FAMILY: 'Montserrat';
-}
-nav a{
-    font-weight: 600px;
-    padding-right: 15px;
-}
-nav a:hover{
-    color: rgb(255, 0, 0);
-    
 }
 
 .active{
@@ -204,32 +174,9 @@ color: white;
 .cuerpo_tarjeta:hover {
     width: 380px;
 }
-.w-100 {
-    width: 99%!important;
-    height: 93%;
-    border-radius: 15px;
-    padding: 9px;
-}
-.carousel carousel-dark slide{
-    border-radius: 15px;
-}
-nav{
-    display: flex;
-    padding-right: 15px;
-    text-decoration: none;
-    FONT-FAMILY: 'Montserrat';
-    font-weight: 20;
-    font-size:medium;
-    justify-content: space-between;
-}
 .active{
     color: rgb(255, 0, 0);
     transition: .5s;
-}
-a {
-    text-decoration: none;
-    margin: 0.3rem;
-    
 }
 .h4_footer{
     color: rgb(0, 0, 0);
@@ -300,13 +247,24 @@ a {
     --bs-bg-opacity: 0;
     
 }
-.navbar-nav{
-    margin-left: 23.4rem;
+.navbar-nav {
+    font-weight:bolder; 
 }
-@media (max-width: 425px){
-    header{
-        height: auto;
+@media screen and (min-width: 768px) {
+    img{
+        width: 240;
     }
+    .navbar-expand-lg .navbar-collapse{
+        flex-basis: auto;
+        justify-content: flex-end;
+    }
+    /* .navbar-nav {margin-left: 27rem;
+    } */
+
+}
+
+@media (max-width: 425px){
+
     .imagen_principal{
         width: 100%;}
 
@@ -331,8 +289,8 @@ a {
             width: 96%;
             height: auto;
     }
-    .navbar-toggler {
+    /* .navbar-toggler {
         margin-left: 3rem;
-    }
+    } */
 
 }
