@@ -63,7 +63,7 @@ header {
     color: rgba(255, 255, 255, .8);
     margin: 10px 0;
 }
-.card:hover .content {
+.tarjeta:hover .content {
     opacity: 1;
     border-radius: 5px;
 }
@@ -83,7 +83,7 @@ color: white;
 .title_tarjetas{
     position: absolute;
     justify-content: center;
-    top: 830px;
+    top: 880px;
     FONT-FAMILY: 'Montserrat';
     font-weight: bold;
     font-size:xx-large;
@@ -258,10 +258,14 @@ color: white;
         flex-basis: auto;
         justify-content: flex-end;
     }
+    .navbar{
+        height: 50px;}
+
+}
     /* .navbar-nav {margin-left: 27rem;
     } */
 
-}
+
 
 @media (max-width: 425px){
 
