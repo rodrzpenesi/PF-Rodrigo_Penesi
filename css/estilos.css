@@ -266,16 +266,10 @@ color: white;
     .info {
         margin-top: 2rem;
     }
-
 }
-
-
-
 @media (max-width: 425px){
-
     .imagen_principal{
         width: 100%;}
-
     .main {
         flex-direction: column;
     }
@@ -301,5 +295,4 @@ color: white;
         flex-wrap: wrap;
         flex-direction: column;
     }
-
 }
