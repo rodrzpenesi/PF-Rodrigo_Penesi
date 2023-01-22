@@ -19,67 +19,13 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
     background-color: white;
     border: 22px;
     border-radius: 15px;
-    margin: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
-
-.tarjeta {
-    margin: 20px;
-    width: 350px;
-    height: 350px;
-    border-radius: 5px;
-    background-size: cover;
-    box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
-    background-position: center;
-}
-.content {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: rgba(0, 0, 0, .4);
-    opacity: 0;
-    transition: .5s;
-}
-#card1 {
-    background-image: url(../img/tarjeta1.jpg);
-}
-#card2 {
-    background-image: url(../img/tarjeta2.jpg);
-}
-#card3 {
-    background-image: url(../img/tarjeta3.jpg);
-}
-#card4 {
-    background-image: url(../img/tarjeta4.jpg);
-}
-.content h2, a {
-    color: rgba(255, 255, 255, .8);
-    margin: 10px 0;
-}
-.tarjeta:hover .content {
-    opacity: 1;
-    border-radius: 5px;
-}
-.textotarjeta {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    FONT-FAMILY: 'Montserrat';
-}
-
-.active{
-    color: rgb(255, 0, 0);
-    transition: .5s;
-}
-.vermas{
-color: white;
-}
 .title_tarjetas{
     position: absolute;
     justify-content: center;
@@ -105,6 +51,16 @@ color: white;
     justify-content: center;
     FONT-FAMILY: 'Montserrat';
     font-size: xx-large;
+    color: azure;
+}
+.titulo_index{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    FONT-FAMILY: 'Montserrat';
+    font-size: xx-large;
+    color: azure;
+    padding: 1.5rem;
 }
 .rojo{
     background-color: #ff3b3b ;
@@ -162,7 +118,7 @@ color: white;
     display: flex;
     margin: 1rem;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .color{
     background-color: white ; 
@@ -295,4 +251,27 @@ color: white;
         flex-wrap: wrap;
         flex-direction: column;
     }
+}
+.row{
+    border-radius: 15px;
+}
+.card-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    font-size:x-large;
+    FONT-FAMILY: 'Montserrat';
+}
+.btn_index{
+    text-decoration: none;
+}
+.card-body{
+    background-color:#ff3b3b;
+}
+.title_index_backgraund{
+    background-color: 444444;
+    border-radius: 15px;
+    margin: 10px;
+    margin-bottom: 1rem;
 }
