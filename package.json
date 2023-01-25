@@ -1,0 +1,27 @@
+{
+  "name": "nuevoindex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/main.scss css/compilado.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrzpenesi/PreEntrega2-Rodrigo_Penesi.git"
+  },
+  "author": "Rodrigo Penesi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrzpenesi/PreEntrega2-Rodrigo_Penesi/issues"
+  },
+  "homepage": "https://github.com/rodrzpenesi/PreEntrega2-Rodrigo_Penesi#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
+
+
