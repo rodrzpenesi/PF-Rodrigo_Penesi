@@ -34,7 +34,7 @@ header {
   header .navbar {
     height: 50px; }
 
-.main {
+main .main {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,8 +43,168 @@ header {
   border-radius: 15px;
   margin-left: 15px;
   margin-right: 15px; }
-  .main .imagen_principal {
-    width: 98%;
-    height: 100%;
+
+main .imagen_principal .img_fondo {
+  width: 98%;
+  height: 100%;
+  border-radius: 15px;
+  margin: 10px; }
+
+main .title_index .title_index_backgraund {
+  background-color: 444444;
+  border-radius: 15px;
+  margin: 10px;
+  margin-bottom: 1rem; }
+  main .title_index .title_index_backgraund .titulo_index {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    FONT-FAMILY: 'Montserrat';
+    font-size: xx-large;
+    color: azure;
+    padding: 1.5rem; }
+
+main .row {
+  border-radius: 15px; }
+  main .row .card-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    font-size: x-large;
+    FONT-FAMILY: 'Montserrat'; }
+  main .row .btn_index {
+    text-decoration: none; }
+  main .row .card-body {
+    background-color: #ff3b3b; }
+
+main .hero_rojo {
+  background-color: #ff3b3b;
+  border-radius: 15px;
+  margin: 10px;
+  height: 8rem; }
+  main .hero_rojo .texto_pedidos {
+    text-align: center;
+    padding: 2rem;
+    color: azure;
+    font-size: xx-large;
+    FONT-FAMILY: 'Montserrat'; }
+
+main .boton-whatsapp {
+  position: fixed;
+  right: 62px;
+  bottom: 80px;
+  width: 50px;
+  height: 50px;
+  z-index: 100; }
+
+main .foter {
+  display: flex;
+  justify-content: center;
+  height: 10px;
+  align-items: center;
+  background-color: white;
+  font-family: sans-serif;
+  padding: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 15px;
+  margin: 10px; }
+
+footer .foter {
+  display: flex;
+  justify-content: center;
+  height: 10px;
+  align-items: center;
+  background-color: white;
+  font-family: sans-serif;
+  padding: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 15px;
+  margin: 10px; }
+
+.color {
+  background-color: white;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 15px; }
+  .color .rojo {
+    background-color: #ff3b3b;
     border-radius: 15px;
-    margin: 10px; }
+    width: 100%;
+    height: 40px; }
+  .color .titulo_tienda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    FONT-FAMILY: 'Montserrat';
+    font-size: xx-large;
+    color: azure; }
+
+.section_tienda {
+  display: flex;
+  margin: 1rem;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .section_tienda .cuerpo_tarjeta {
+    FONT-FAMILY: 'Montserrat';
+    font-size: 13px;
+    width: 280px;
+    border: solid gray 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    margin: 2rem;
+    transition: 2s; }
+    .section_tienda .cuerpo_tarjeta .imagen {
+      width: 100%;
+      border-radius: 5px; }
+    .section_tienda .cuerpo_tarjeta .datos {
+      padding: 12px;
+      margin-bottom: 10px; }
+      .section_tienda .cuerpo_tarjeta .datos .comprar {
+        text-decoration: none;
+        color: black;
+        background-color: #ff3b3b;
+        border-radius: 5px;
+        padding: 8px; }
+      .section_tienda .cuerpo_tarjeta .datos .comprar:hover {
+        background-color: #ff5c5c; }
+  .section_tienda .cuerpo_tarjeta:hover {
+    width: 380px; }
+
+.img {
+  width: 100%; }
+
+@media screen and (min-width: 768px) {
+  img {
+    width: 240; }
+  .info {
+    margin-top: 2rem; } }
+
+@media (max-width: 425px) {
+  .imagen_principal {
+    width: 100%; }
+  .main {
+    flex-direction: column; }
+  .title_tarjetas {
+    position: relative;
+    top: 5px;
+    padding: 2rem;
+    text-align: center; }
+  h2 {
+    margin-top: -13;
+    font-weight: 500;
+    line-height: 1.2; }
+  footer {
+    flex-direction: column;
+    height: 0px; }
+  .img_fondo {
+    width: 96%;
+    height: auto; }
+  .row {
+    flex-wrap: wrap;
+    flex-direction: column; } }

@@ -1,0 +1,61 @@
+.color{
+            background-color: white ; 
+            padding: 20px;
+            margin: 15px;
+            border-radius: 15px;
+            .rojo{
+                    background-color: #ff3b3b ;
+                    border-radius: 15px;
+                    width: 100%;
+                    height: 40px;
+                }
+            .titulo_tienda{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    FONT-FAMILY: 'Montserrat';
+                    font-size: xx-large;
+                    color: azure;
+            }
+}
+.section_tienda{
+    display: flex;
+    margin: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .cuerpo_tarjeta{
+        FONT-FAMILY: 'Montserrat';
+        font-size: 13px;
+        width: 280px;
+        border: solid gray 1px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        border-radius: 5px;
+        margin: 2rem;
+        transition: 2s;
+        .imagen {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .datos{
+            padding: 12px;
+            margin-bottom: 10px;
+            .comprar{
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                background-color: rgb(255, 59, 59);
+                border-radius: 5px;
+                padding: 8px;
+            }
+            .comprar:hover{
+                background-color:rgb(255, 92, 92) ;
+            }
+        }
+    }
+    .cuerpo_tarjeta:hover {
+        width: 380px;
+    }
+}
+
