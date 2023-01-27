@@ -1,0 +1,16 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 22px;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    .imagen_principal{
+        width: 98%;
+        height: 100%;
+        border-radius: 15px;
+        margin: 10px;
+    }
+}

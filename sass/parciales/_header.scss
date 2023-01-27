@@ -1,0 +1,37 @@
+header {
+    background-color: $back_color;
+    border-radius: $brd_rd;
+    font-family: $font_famili;
+    margin: $mgn;
+    .bg-body-tertiary {
+        --bs-bg-opacity: 0;
+    }
+    .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+        color:$clr_red;
+    }
+    .nav-link {
+        display: block;
+        padding: 10px;
+        font-size: large;
+        font-weight: 50px;
+        color: black;
+        text-decoration: none;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+        font-family: $font_famili;
+        
+    }
+    .navbar-nav {
+        font-weight:bolder; 
+    }
+    .img, info{
+        width: 100%;
+    }
+    @if $vista == desktop{
+        .navbar-expand-lg .navbar-collapse{
+            flex-basis: auto;
+            justify-content: flex-end;
+        }
+        .navbar{
+            height: 50px;}
+    }
+}

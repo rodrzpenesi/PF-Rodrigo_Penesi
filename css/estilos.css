@@ -1,19 +1,10 @@
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 body{
     background-color:whitesmoke
 }
 /*HEADER*/
-header {
-    background-color: white;
-    border-radius: 15px;
-    FONT-FAMILY: 'Montserrat';
-    margin: 10px;
-}
+
 /*HEADER*/
 /*MAIN*/
 .main {
@@ -25,15 +16,6 @@ header {
     border-radius: 15px;
     margin-left: 15px;
     margin-right: 15px;
-}
-
-.title_tarjetas{
-    position: absolute;
-    justify-content: center;
-    top: 790px;
-    FONT-FAMILY: 'Montserrat';
-    font-weight: bold;
-    font-size:xx-large;
 }
 /*MAIN*/
 /*FOOTER*/
