@@ -1,0 +1,22 @@
+.main{
+    display: flex;
+    background-color: white;
+    border-radius: $brd_rd;
+    margin: $mgn;
+    #tarjeta3{
+        border-radius: $brd_rd;
+    }
+    .clearfix{
+        font-family: $font_famili;}
+    h2{
+        display: flex;
+        justify-content: center;
+        font-weight: bolder;
+    }
+    p,ol{
+        font-weight:bold;   
+    }
+    .bondiola{
+        margin-top: 1rem;
+    }
+}

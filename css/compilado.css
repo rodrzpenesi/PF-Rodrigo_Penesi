@@ -180,6 +180,24 @@ footer .foter {
   width: 100%;
   border-radius: 15px; }
 
+.main {
+  display: flex;
+  background-color: white;
+  border-radius: 15px;
+  margin: 10px; }
+  .main #tarjeta3 {
+    border-radius: 15px; }
+  .main .clearfix {
+    font-family: "Montserrat"; }
+  .main h2 {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder; }
+  .main p, .main ol {
+    font-weight: bold; }
+  .main .bondiola {
+    margin-top: 1rem; }
+
 @media screen and (min-width: 425px) {
   .row {
     flex-direction: column; }
