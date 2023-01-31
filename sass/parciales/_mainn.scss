@@ -10,9 +10,11 @@ main{
         margin-right: 15px;
     }
     .imagen_principal{
+        @if $vista == desktop{
+            .img_fondo{
+                width: 98.4%;}
+            }
         .img_fondo{
-            width: 98.4%;
-            height: 100%;
             border-radius: $brd_rd;
             margin-left: 10px;
         }

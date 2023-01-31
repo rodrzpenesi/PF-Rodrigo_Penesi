@@ -31,6 +31,8 @@ header {
   header .navbar-expand-lg .navbar-collapse {
     flex-basis: auto;
     justify-content: flex-end; }
+  header .navbar-nav {
+    align-items: center; }
 
 main .main {
   display: flex;
@@ -43,8 +45,9 @@ main .main {
   margin-right: 15px; }
 
 main .imagen_principal .img_fondo {
-  width: 98.4%;
-  height: 100%;
+  width: 98.4%; }
+
+main .imagen_principal .img_fondo {
   border-radius: 15px;
   margin-left: 10px; }
 
