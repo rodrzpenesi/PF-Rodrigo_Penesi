@@ -31,8 +31,6 @@ header {
   header .navbar-expand-lg .navbar-collapse {
     flex-basis: auto;
     justify-content: flex-end; }
-  header .navbar {
-    height: 50px; }
 
 main .main {
   display: flex;
@@ -45,10 +43,10 @@ main .main {
   margin-right: 15px; }
 
 main .imagen_principal .img_fondo {
-  width: 98%;
+  width: 98.4%;
   height: 100%;
   border-radius: 15px;
-  margin: 10px; }
+  margin-left: 10px; }
 
 main .title_index .title_index_backgraund {
   background-color: 444444;
@@ -59,7 +57,7 @@ main .title_index .title_index_backgraund {
     display: flex;
     align-items: center;
     justify-content: center;
-    FONT-FAMILY: 'Montserrat';
+    font-family: "Montserrat";
     font-size: xx-large;
     color: azure;
     padding: 1.5rem; }
@@ -72,7 +70,7 @@ main .row {
     align-items: center;
     color: azure;
     font-size: x-large;
-    FONT-FAMILY: 'Montserrat'; }
+    font-family: "Montserrat"; }
   main .row .btn_index {
     text-decoration: none; }
   main .row .card-body {
@@ -88,7 +86,7 @@ main .hero_rojo {
     padding: 2rem;
     color: azure;
     font-size: xx-large;
-    FONT-FAMILY: 'Montserrat'; }
+    font-family: "Montserrat"; }
 
 main .boton-whatsapp {
   position: fixed;
@@ -127,7 +125,7 @@ footer .foter {
 .color {
   background-color: white;
   padding: 20px;
-  margin: 15px;
+  margin: 10px;
   border-radius: 15px; }
   .color .rojo {
     background-color: #ff3b3b;
@@ -138,7 +136,7 @@ footer .foter {
     display: flex;
     align-items: center;
     justify-content: center;
-    FONT-FAMILY: 'Montserrat';
+    font-family: "Montserrat";
     font-size: xx-large;
     color: azure; }
 
@@ -148,7 +146,7 @@ footer .foter {
   flex-wrap: wrap;
   justify-content: space-around; }
   .section_tienda .cuerpo_tarjeta {
-    FONT-FAMILY: 'Montserrat';
+    font-family: "Montserrat";
     font-size: 13px;
     width: 280px;
     border: solid gray 1px;

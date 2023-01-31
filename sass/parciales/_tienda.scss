@@ -1,11 +1,11 @@
 .color{
-            background-color: white ; 
+            background-color: $back_color ; 
             padding: 20px;
-            margin: 15px;
-            border-radius: 15px;
+            margin: $mgn;
+            border-radius: $brd_rd;
             .rojo{
-                    background-color: #ff3b3b ;
-                    border-radius: 15px;
+                    background-color: $clr_red ;
+                    border-radius: $brd_rd;
                     width: 100%;
                     height: 40px;
                 }
@@ -13,9 +13,9 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    FONT-FAMILY: 'Montserrat';
+                    font-family: $font_famili;
                     font-size: xx-large;
-                    color: azure;
+                    color: $clr_w;
             }
 }
 .section_tienda{
@@ -24,7 +24,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     .cuerpo_tarjeta{
-        FONT-FAMILY: 'Montserrat';
+        font-family: $font_famili;
         font-size: 13px;
         width: 280px;
         border: solid gray 1px;
