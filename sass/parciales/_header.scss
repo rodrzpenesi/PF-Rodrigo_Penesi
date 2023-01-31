@@ -28,7 +28,6 @@ header {
     }
     @if $vista == desktop{
         .navbar-expand-lg .navbar-collapse{
-            flex-basis: auto;
             justify-content: flex-end;}
         }
         .navbar-nav {
