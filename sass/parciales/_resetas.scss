@@ -13,6 +13,11 @@
         justify-content: center;
         font-weight: bolder;
     }
+    .h2_titulo{
+        background-color: $clr_red;
+        color: white;
+        border-radius: $brd_rd;
+    }
     p,ol{
         font-weight:bold;   
     }

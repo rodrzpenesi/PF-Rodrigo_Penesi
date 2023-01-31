@@ -193,6 +193,10 @@ footer .foter {
     display: flex;
     justify-content: center;
     font-weight: bolder; }
+  .main .h2_titulo {
+    background-color: #ff3b3b;
+    color: white;
+    border-radius: 15px; }
   .main p, .main ol {
     font-weight: bold; }
   .main .bondiola {
