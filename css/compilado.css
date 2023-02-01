@@ -208,7 +208,7 @@ footer .foter {
     flex-direction: column; }
   .col {
     margin-top: 1rem; }
-  .logo_img {
+  #logo_header {
     width: 250; } }
 
 @media screen and (min-width: 769px) {
