@@ -207,7 +207,9 @@ footer .foter {
     display: flex;
     flex-direction: column; }
   .col {
-    margin-top: 1rem; } }
+    margin-top: 1rem; }
+  .logo_img {
+    width: 250; } }
 
 @media screen and (min-width: 769px) {
   .row {
