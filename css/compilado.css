@@ -202,21 +202,21 @@ footer .foter {
   .main .bondiola {
     margin-top: 1rem; }
 
+@media screen and (max-width: 375px) {
+  #logo_header {
+    width: 210; } }
+
 @media screen and (min-width: 320px) {
   .row {
     display: flex;
     flex-direction: column; }
   .col {
-    margin-top: 1rem; }
-  #logo_header {
-    width: 250; } }
+    margin-top: 1rem; } }
 
 @media screen and (min-width: 769px) {
   .row {
     display: flex;
     flex-direction: row; }
-  img {
-    width: 240; }
   .info {
     margin-top: 2rem; }
   element.style {
