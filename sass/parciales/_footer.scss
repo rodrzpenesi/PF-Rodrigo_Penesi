@@ -1,14 +1,8 @@
 footer{
-    .foter {
-        display: flex;
-        justify-content: center;
-        height: 10px;
-        align-items: center;
-        background-color: $back_color;
-        font-family: sans-serif;
-        padding: 15px;
-        padding-right: 15px;
-        padding-left: 15px;
-        border-radius: $brd_rd;
-        margin: $mgn; }
+    margin: $mgn;
+    border-radius: 5px;
+    background-color: grey;
+    .div1{
+        background-color: rgba(0, 0, 0, 0.2);
+    }
 }

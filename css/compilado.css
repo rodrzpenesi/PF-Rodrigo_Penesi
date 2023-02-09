@@ -10,7 +10,8 @@ header {
   background-color: white;
   border-radius: 15px;
   font-family: "Montserrat";
-  margin: 10px; }
+  margin: 10px;
+  width: 98%; }
   header .bg-body-tertiary {
     --bs-bg-opacity: 0; }
   header .navbar-nav .nav-link.active, header .navbar-nav .show > .nav-link {
@@ -111,18 +112,12 @@ main .foter {
   border-radius: 15px;
   margin: 10px; }
 
-footer .foter {
-  display: flex;
-  justify-content: center;
-  height: 10px;
-  align-items: center;
-  background-color: white;
-  font-family: sans-serif;
-  padding: 15px;
-  padding-right: 15px;
-  padding-left: 15px;
-  border-radius: 15px;
-  margin: 10px; }
+footer {
+  margin: 10px;
+  border-radius: 5px;
+  background-color: grey; }
+  footer .div1 {
+    background-color: rgba(0, 0, 0, 0.2); }
 
 .color {
   background-color: white;
