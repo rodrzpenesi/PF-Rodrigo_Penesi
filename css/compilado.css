@@ -99,25 +99,15 @@ main .boton-whatsapp {
   height: 50px;
   z-index: 100; }
 
-main .foter {
-  display: flex;
-  justify-content: center;
-  height: 10px;
-  align-items: center;
-  background-color: white;
-  font-family: sans-serif;
-  padding: 15px;
-  padding-right: 15px;
-  padding-left: 15px;
-  border-radius: 15px;
-  margin: 10px; }
-
 footer {
   margin: 10px;
   border-radius: 5px;
-  background-color: grey; }
+  background-color: grey;} 
   footer .div1 {
     background-color: rgba(0, 0, 0, 0.2); }
+
+
+
 
 .color {
   background-color: white;
